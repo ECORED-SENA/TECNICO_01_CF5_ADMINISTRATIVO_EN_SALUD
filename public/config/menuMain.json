@@ -1,0 +1,111 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "normatividad",
+    "title": "1. Normatividad",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "normatividad",
+        "title": "1.1 Normatividad relevante al Régimen Subsidiado",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "normatividad",
+        "title": "1.2 Acuerdo 641 de 2016.  El cual efectúa la reorganización del Sector Salud de Bogotá, Distrito Capital, se modifica el Acuerdo 257 de 2006 y se expiden otras disposiciones",
+        "anchor": "12"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "decreto_4747",
+    "title": "2. Decreto 4747 de 2007 Regulan algunos aspectos de las relaciones entre los prestadores de servicios de salud y las entidades responsables del pago de los servicios de salud de la población a su cargo",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "decreto_4747",
+        "title": "2.1 Resolución 3047 de 2008 Por medio de la cual se definen los formatos, mecanismos de envío, procedimientos y términos a ser implementados en las relaciones entre prestadores de servicios de salud y entidades responsables del pago de servicios de salud, definidos en el Decreto 4747 de 2007",
+        "anchor": "21"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "ley_2015",
+    "title": "3. Ley 2015 de 2020. Crea la historia clínica electrónica",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "ley_2015",
+        "title": "3.1 Resolución 1995 de 1999, Establecen normas para el manejo de la Historia Clínica",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "ley_2015",
+        "title": "3.2 Resolución 839 de 2017, Modifica la Resolución 1995 de 1999 y se dictan otras disposiciones",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "ley_2015",
+        "title": "3.3 La historia clínica",
+        "anchor": "33"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "ley_2015",
+        "title": "3.4 Decreto 2759 de 1991. Organiza y establece el régimen de referencia y contra referencia",
+        "anchor": "34"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "plan_bebeficios_salud",
+    "title": "4. Plan de Beneficios en Salud con cargo a la UPC",
+    "breadcrumb": ["Inicio","tema 4"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "plan_bebeficios_salud",
+        "title": "4.1 Conozca los servicios que cubre la UPC en el 2020",
+        "anchor": "41"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "plan_bebeficios_salud",
+        "title": "4.2 Decreto Único 780 de 2016. Expide el Decreto Único Reglamentario del Sector Salud y Protección Social",
+        "anchor": "42"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "tipos_contratacion",
+    "title": "5.  Tipos de contratación",
+    "breadcrumb": ["Inicio","tema 5"],
+    "path": "pages/5-tema.html"
+  }
+  
+]
