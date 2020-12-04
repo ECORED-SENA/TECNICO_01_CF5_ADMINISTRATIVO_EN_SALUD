@@ -36,8 +36,11 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Construcción de contenido digital', '#tema-1')
-                                    +navTemaItem('2', 'Derechos de autor', '#tema-2')   
+                                    +navTemaItem('1', 'Normatividad', '#tema-1')
+                                    +navTemaItem('2', 'Decreto 4747 de 2007 Regulan algunos aspectos de las relaciones entre los prestadores de servicios de salud y las entidades responsables del pago de los servicios de salud de la población a su cargo', '#tema-2')
+                                    +navTemaItem('3', 'Ley 2015 de 2020. Crea la historia clínica electrónica', '#tema-3')
+                                    +navTemaItem('4', 'Plan de Beneficios en Salud con cargo a la UPC', '#tema-4')
+                                    +navTemaItem('5', 'Tipos de contratación', '#tema-5')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
@@ -47,7 +50,13 @@ html(lang="es")
             #tema-1
                 include pages/1-tema.pug
             #tema-2
-                include pages/2-tema.pug                          
+                include pages/2-tema.pug    
+            #tema-3
+                include pages/3-tema.pug    
+            #tema-4
+                include pages/4-tema.pug    
+            #tema-5
+                include pages/5-tema.pug                          
             #glosario
                 include pages/glosario.pug
             #anexos
